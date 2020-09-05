@@ -10,7 +10,7 @@ def load_asm_math():
     asm_math = ctypes.CDLL(libfile)
 
     # Tell Python interpreter the argument and result types of function sum
-    asm_math.sum.restype = ctypes.c_longlong
+    asm_math.sum.restype = ctypes.c_int
     asm_math.sum.argtypes = [ctypes.c_int, ctypes.c_int]
 
     return asm_math
