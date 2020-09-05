@@ -1,5 +1,6 @@
 #include <iostream>
 
+/** Sum two numbers with ASM */
 extern "C" int sum(int a, int b)
 {
   int result;
@@ -10,11 +11,7 @@ extern "C" int sum(int a, int b)
   return result;
 }
 
-/**
- * Sum two numbers with ASM
- * @param n last fibonacci number
- * @return fibonnaci sequence as array
- */
+/** Retrieve the n fibonacci number in the sequence */
 extern "C" int fibonacci(int n)
 {
   int f[n + 2];
