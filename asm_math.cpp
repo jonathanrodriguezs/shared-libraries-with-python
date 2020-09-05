@@ -7,6 +7,7 @@ extern "C" long long sum(long long a, long long b)
   __asm__("addl %%ebx, %%eax;"
           : "=a"(result)
           : "a"(a), "b"(b));
+  printf("%lld + %lld = %lld\n", a, b, result);
   return result;
 }
 
