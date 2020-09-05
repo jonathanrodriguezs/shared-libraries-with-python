@@ -25,3 +25,13 @@ extern "C" double fibonacci(int n)
   }
   return b;
 }
+
+extern "C" double performance_test(int n)
+{
+  double result = 0;
+  for (int i = 0; i < n; i++)
+  {
+    result += float(i) * 2;
+  }
+  return result;
+}

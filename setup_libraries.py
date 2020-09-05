@@ -16,4 +16,7 @@ def load_asm_math():
     asm_math.fibonacci.argtypes = [ctypes.c_int]
     asm_math.fibonacci.restype = ctypes.c_double
 
+    asm_math.performance_test.argtypes = [ctypes.c_int]
+    asm_math.performance_test.restype = ctypes.c_double
+
     return asm_math
