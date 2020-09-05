@@ -38,4 +38,4 @@ $ python performance_test.py
 ```
 
 ## Disclaimer
-Tested on Debian 9, linux-x86_64, shared libraries in this OS have the .so extension, in windows this extension is .ddl
+Tested on Debian 9, linux-x86_64, shared libraries in this OS have the .so extension, in windows this extension is .dll
